@@ -7,7 +7,7 @@ import os
 #CONSTANTS AND LOADING
 Wid,Hei = 900,500
 SPACESHIP_WIDTH,SPACESHIP_HEIGHT = 55,40
-VEL = 3
+VEL = 5
 WIN  = pygame.display.set_mode((Wid,Hei))
 pygame.display.set_caption("Game 1")
 COLOUR = (0,0,102)  #RGB colour values are stored here
