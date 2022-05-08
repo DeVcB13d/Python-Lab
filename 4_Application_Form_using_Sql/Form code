@@ -1,0 +1,168 @@
+# job application form
+import mysql.connector
+import random
+f=mysql.connector.connect(host='localhost',user='root',passwd='123456',database='applications')
+
+# program to store sql table into a given variable
+
+def store():
+    cursor=f.cursor()
+    cursor.execute("select * from applications")
+    data=cursor.fetchall()
+    return data
+
+
+#form main interface
+
+def mysqlform():
+    c=f.cursor()
+    print('Please fill in the given details appropriately')
+    print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+    name=input('Enter your name: ')
+    age=input('Enter your age: ')
+    noofqua=input('enter the number of qualifications that you have: ')
+    jobplace=input('enter your preffered job place: ')
+    num=input('enter your mobile number: ')
+    email=input('enter a valid email id: ')
+    print('your deatils have been recorded')
+    uid=random.randint(100000,999990) 
+    print('your unique identification code is',uid)
+    print('The above give uid is important and neede for further purposes')
+    details=(uid,name,noofqua,jobplace,num,email)
+    x=' insert into applications values '
+    dt=x+str(details)
+    c.execute(dt)
+    f.commit()
+
+    
+# program to delete an inputted record
+
+def  delete():
+    sv3=0
+    c=f.cursor()
+    euid=input('pls enter your 6 digit UID: ')
+    det=store()
+    for i in det:
+        if i[0]==euid:
+            sv3+=1
+            break
+    if sv3>=1:
+        print('application deleted')
+    else:
+        print('application not found')
+    st='delete from applications where uid='
+    st+=euid
+    c.execute(st)
+    f.commit()
+
+
+
+# program to save the inputted record as a textfile
+
+def savetext(textfile):
+    sv1=0
+    uid=open(textfile,'w')
+    files=store()
+    uidin=int(input('please input your uid: '))
+    for i in files:
+       for j in i:
+           if i[0]==uidin:
+                sv1+=1
+                s=i
+                break
+    if sv1==1:
+        details2={'uid':s[0],'name':s[1],'qualifications':s[2],'place':s[3],'phone num':s[4],'email':s[5]}
+        for i in details2:
+            wt=(i,details2[i])
+            km=str(wt)
+            print(wt[0],'--',wt[1])
+            uid.write(km)
+    else:
+        print('The inputted uid does not exist')
+
+# program to save all the details into a textfile
+def storefull(text):
+    t2=str(text)
+    datas=store()
+    textcon=open(t2,'w')
+    for rec in datas:
+        x=str(rec)
+        textcon.write(x)
+        textcon.write("\n")
+        
+# display all the details in the file    
+def showall():
+    datas=store()
+    p=('UID','NAME','QUALIFICATIONS','PLACE','PHONE','EMAIL')
+    for k in p:
+        print(k,end='\t')
+    for i in datas:
+        print()
+        for j in i:
+            print(j,end='\t')
+
+ # administrator menu
+ 
+def admin():
+    paswds='123456'
+    ps=input('enter the pasword: ')
+    if ps==paswds:
+        print('1. Show all applicant details')
+        print('2. Download applicant details')
+        ch5=int(input('please enter your choice: '))
+        if ch5==1:
+            showall()
+        elif ch5==2:
+            t=input('Please enter the file name to save into: ')
+            storefull(t)
+            print('sucessfully stored')
+        else:
+            print('the option inputted is incorrect')
+            print('please try again')
+    else:
+        print('password inputted is incorrect')
+        print('please try again')
+        
+                  
+        
+                
+
+
+def formmenu():
+    print('1. proceed to application')
+    print('2. save the application in text format')
+    print('3. cancel the application')
+    print('4. login as admin')
+    print('5. exit')
+    print()
+    choice=input('enter your choice: ')
+    if choice=='1':
+        mysqlform()
+    elif choice=='2':
+       textfile=input('please enter the name of the file you need to save your details into: ')
+       savetext(textfile)
+    elif choice=='3':
+        delete()
+    elif choice=='4':
+        admin()
+    elif choice=='5':
+        print('Thanks')
+    else:
+        print('The given choice is incorrect')
+        print('plz input again')
+    z=input('press any key to continue')
+menulimit=0      
+while menulimit==0:
+    print()
+    print()
+    print('welcome')
+    formmenu()
+    lim1=input('do you need to enter more?  ')
+    if lim1 in 'Nn':
+        print()
+        print('Thanks for participating')
+        menulimit=5
+    
+
+
+        
