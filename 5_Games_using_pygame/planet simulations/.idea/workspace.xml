@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99c4e92e-33a9-4c48-91da-9e25b12f70ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../2_Introduction/1_Sequential_Problems.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Introduction/1_Sequential_Problems.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_Introduction/2_Decision_Problems.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Introduction/2_Decision_Problems.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_Introduction/3_Iterative_Looping_Problems.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_Introduction/3_Iterative_Looping_Problems.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P1/c1p1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P1/c1p1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P2/c1p2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P2/c1p2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P3/c1p3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P3/c1p3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P4/c1p4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P4/c1p4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P5/c1p5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 1/P5/c1p5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P1/c2p1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P1/c2p1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P2/c2p2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P2/c2p2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P3/c2p3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P3/c2p3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P3/iris.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P3/iris.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P4/c2p4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P4/c2p4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P5/c2p5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 2/P5/c2p5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 3/P1_TicTacToe/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 3/P1_TicTacToe/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 3/P2 and P4_DATA_VIS/c3p2_PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 3/P2 and P4_DATA_VIS/c3p2_PCA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 3/P2 and P4_DATA_VIS/c3p3_PLOT.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Lab_Cycles/Cycle 3/P2 and P4_DATA_VIS/c3p3_PLOT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_Application_Form_using_Sql/Form code" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Application_Form_using_Sql/Form code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_Application_Form_using_Sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Application_Form_using_Sql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6_Data_visualisation/Data_visualisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../6_Data_visualisation/Data_visualisation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6_Data_visualisation/PCA_Using_NumPy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../6_Data_visualisation/PCA_Using_NumPy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7_Interface_using_python/Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../7_Interface_using_python/Interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7_Interface_using_python/car_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../7_Interface_using_python/car_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2A1WvJGcIiqv5IMA0HR4zUxCK1U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/USER/Documents/GitHub/Python-Lab/5_Games_using_pygame/planet simulations"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c4e92e-33a9-4c48-91da-9e25b12f70ca" name="Changes" comment="" />
+      <created>1654177800787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654177800787</updated>
+    </task>
+    <servers />
+  </component>
+</project>

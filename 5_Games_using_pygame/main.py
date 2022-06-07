@@ -1,6 +1,7 @@
 import pygame
 import numpy as npy
 
+
 #Constant values
 WIN_LEN,WIN_WID = 600,800
 FPS = 60
